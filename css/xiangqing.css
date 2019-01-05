@@ -252,65 +252,9 @@ ul,li,ol{
 .chang a{
 	font-size: 13px;
 	text-decoration: none;
-	margin-left: -960px;
+	margin-left: -880px;
 	color: black;
 }
-/*.box{
-	width: 996px;
-	height: 630px;
-	background-color: white;
-}
-.box1{
-	width: 410px;
-	height: 410px;
-	padding-top: 22px;
-	margin-left: 22px;
-}
-.box2{
-	width: 410px;
-	height: 410px;
-	border-width: 1px;
-	border-style: solid;
-	border-color: #d0cdc7;
-}
-.box3{
-	width: 406px;
-	height: 60px;
-	margin-top: 25px;
-	margin-left: 22px;
-}
-.box5{
-	width: 57px;
-	height: 57px;
-	margin-left: 26px;
-	margin-top: -64px;
-	border-width: 1px;
-	border-style: solid;
-	border-color: #ff9003;
-}
-.box6{
-	width: 57px;
-	height: 57px;
-	margin-left: 88px;
-	margin-top: -58px;
-}
-.box7{
-	width: 28px;
-	height: 57px;
-	margin-left: 383px;
-	margin-top: -58px;
-}
-.achang{
-	width: 180px;
-	height: 630px;
-	margin-left: 998px;
-	margin-top: -630px;
-	background-color: white;
-}
-.tutu{
-	width: 1180px;
-	height: 108px;
-}*/
 .last{
 	width: 1180px;
 	height: 347px;
@@ -487,6 +431,7 @@ ul,li,ol{
 .box1{
 	width: 450px;
 	height: 632px;
+	margin-left: -370px;
 	float: left;
 	background-color: #ffffff;
 }
