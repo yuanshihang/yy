@@ -243,9 +243,13 @@
 					<input type="text" value="请输入手机号" id="name" >
 				</div>
 				<div class="honor6">
-					<select name="" id="money" style="width:60px;"><option value="30" selected ="selected">30</option></select>
+					<select name="" id="money" style="width:60px;"><option value="05" id="01">10</option>
+  							<option value="10" id="10" selected="selected">30</option>
+  							<option value="30" id="30">50</option>
+  							<option value="50" id="50">100</option>
+					</select>
 					<div class="honor9">
-						<p class="yy6">¥30</p>
+						<p class="yy6" id="yy6">¥30</p>
 					</div>
 				</div>
 				<div class="honor7">
@@ -443,12 +447,25 @@
   				}
   			}
 		}
+		var con1=document.getElementById("honor8");
+			con1.onmouseover = function(){
+				clearInterval(time);
+			}
+			
 		setTimeout("starMove()",delay);
 		var money = document.getElementById("money");
-		for(var i = 1; i <= 59; ++i) {
+		var yy6 = document.getElementById("yy6");
+  		//var money = document.getElementById("money");
+  			yy6.innerHTML="¥"+" "+30;
+  			money.onclick=function(){
+  				var op = money.options[money.selectedIndex];
+  				yy6.innerHTML = "¥"+" "+op.innerHTML;
+  			}
+
+		/*for(var i = 1; i <= 59; ++i) {
             var str = i < 10 ? '0' + i : i;
             money.innerHTML += "<option value=" + str + ">" + str +"</option>";
-        }
+        }*/
         var box = document.getElementById('box');
 		var oNavlist = document.getElementById('nav').children;
 		var slider = document.getElementById('slider');
