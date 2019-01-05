@@ -220,6 +220,17 @@ ul,li,ol{
 .second a{
 	background-color:#fe0d4a;
 	color: white;
+	margin-left: -290px;
+}
+.haqi a{
+	
+	color: white;
+	margin-left: -190px;
+}
+.haqi1 a{
+	
+	color: white;
+	margin-left: -100px;
 }
 .xiaode{
 	margin-left: 30px;
@@ -431,7 +442,7 @@ ul,li,ol{
 .box1{
 	width: 450px;
 	height: 632px;
-	margin-left: -370px;
+	margin-left: 0px;
 	float: left;
 	background-color: #ffffff;
 }
@@ -737,9 +748,9 @@ ul,li,ol{
 }
 #img2 {
 	float:left;
-    position: absolute;
-    left: 533px;
-    top: 229px;
+    position: relative;
+    left: 410px;
+    top: 0px;
     display: none;
     width: 400px;
     height: 408px;
@@ -867,7 +878,7 @@ ul,li,ol{
 	opacity: 1;
 	position: fixed;
 	top: 300px;
-	left: 500px;
+	left: 800px;
 	z-index: 200;
 }
 .zz{
